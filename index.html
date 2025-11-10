@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanMap</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 
 <body>
     <nav>
         <ul>
-            >
             <img src="imagens/Logo .png" alt="logo" class="logo">
             <div class="icons">
                 <a href="#"><img src="imagens/Instagram.png" class="sub-icons"></a>
@@ -65,6 +67,11 @@
 
         <section id="Locais" class="card_top">
             <h1>Locais</h1>
+            <div id="map"></div>
+            <div class="marcadoresDeMapa">
+                <button id="addPoint">Adicionar ponto</button>
+                <button id="removePoint">Remover ponto</button>
+            </div>
         </section>
 
         <section id="Suporte" class="card_top">
@@ -72,6 +79,7 @@
         </section>
     </main>
 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
 
