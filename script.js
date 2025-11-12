@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (modoAdicionar) {
             const novo = L.marker(e.latlng, { icon: iconeLixeira })
                 .addTo(map)
-                .bindPopup("<b>Nova caçamba adicionada</b>");
+                .bindPopup("<b>Ponto reciclavel</b>");
             marcadores.push(novo);
             modoAdicionar = false; // desativa modo
         }

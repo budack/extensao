@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-    border-bottom: solid var(--cor_font);
+    color: var(--cor_secundaria);
 }
 
 nav {
@@ -34,6 +34,7 @@ nav {
     flex-direction: column;
     align-items: center;
     position: fixed;
+    border-right: solid var(--cor_secundaria);
 }
 
 nav ul {
@@ -45,6 +46,7 @@ nav ul {
 
 nav li {
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 nav a {
@@ -109,11 +111,8 @@ main {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    flex-direction: column;
-}
-
-.card_top {
-    margin: auto;
+    border: solid var(--cor_secundaria);
+    height: auto;
 }
 
 .bottom-row {
@@ -143,8 +142,14 @@ li {
 }
 
 .card_principal {
+    margin-top: 30px ;
     border-radius: 100px;
     background-color: #0c211693;
+    border: solid var(--cor_secundaria);
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
 }
 
 #map {
@@ -153,12 +158,16 @@ li {
     border-radius: 20px;
     margin-top: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 .marcadoresDeMapa {
     display: flex;
     gap: 60px;
-    margin-top:10px; 
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
     padding-left: 10px;
@@ -172,4 +181,3 @@ li {
     padding: 10px 20px;
     border-radius: 10px;
 }
-
