@@ -12,17 +12,35 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-}
+} 
 
-body {
+body, html{
     background: var(--cor_destaque);
     color: var(--cor_font);
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 
 }
 
 h1 {
     color: var(--cor_secundaria);
+}
+
+p{
+    font-size: 15px;
+}
+
+header{
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-left: 250px ;
+    background-color: #0c211693;
+    border: solid var(--cor_secundaria);
+    align-items:end;
+    text-align :center;
+    flex-direction:row-reverse;
+    height: 400px;
 }
 
 nav {
@@ -80,6 +98,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    padding-top: 0;
 }
 
 .icons {
