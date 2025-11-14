@@ -194,7 +194,7 @@ li {
     text-align: center;
     padding-left: 10px;
     padding-inline: 280px;
-    gap: 50px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -206,3 +206,4 @@ li {
     border-radius: 10px;
 
 }
+
