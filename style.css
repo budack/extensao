@@ -27,8 +27,9 @@ h1 {
     color: var(--cor_secundaria);
 }
 
-p {
+p, h5{
     font-size: 15px;
+    margin: 10px;
 }
 
 header {
@@ -122,8 +123,8 @@ main {
 .card {
     display: flex;
     background: #ccc;
-    padding: 50px;
-    border-radius: 80px;
+    padding: auto;
+    border-radius: 50px;
     margin: 20px;
     padding-top: 30px;
     font-size: 24px;
@@ -175,8 +176,8 @@ li {
 }
 
 #map {
-    width: 900px;
-    height: 600px;
+    width: 100vh;
+    height: 80vh;
     border-radius: 20px;
     margin-top: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -191,9 +192,7 @@ li {
     gap: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
-    padding-left: 10px;
-    padding-inline: 280px;
+    text-align: center;  
     gap: 10px;
     flex-wrap: wrap;
 }
