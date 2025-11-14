@@ -194,7 +194,7 @@ li {
     text-align: center;
     padding-left: 10px;
     padding-inline: 280px;
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -204,4 +204,5 @@ li {
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+
 }
